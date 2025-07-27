@@ -2,8 +2,8 @@ name: Weekly Roster Update
 
 on:
   schedule:
-    - cron: "0 10 * * 1"  # Every Monday 10:00 UTC
-  workflow_dispatch:
+    - cron: "0 10 * * 1"  # Runs every Monday at 10:00 UTC
+  workflow_dispatch:      # Allows manual triggering
 
 jobs:
   update-sheet:
